@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0,
+        maximum-scale=1.0, user-scalable=no"
+    >
+
+    <title>Endless Scroll</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- START SCREEN -->
+    <div id="startScreen">
+
+        <div class="start-content">
+
+            <p class="small-label">
+                INTERFACE REMIX
+            </p>
+
+            <h1>ENDLESS<br>SCROLL</h1>
+
+            <p class="instruction">
+                Don't touch the screen.
+            </p>
+
+            <p class="instruction">
+                Tilt your phone to scroll.
+            </p>
+
+            <div class="phone-demo">
+                📱
+            </div>
+
+            <p class="hint">
+                Tilt forward to move down.<br>
+                Tilt back to move up.
+            </p>
+
+            <button id="startButton">
+                START EXPERIENCE
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- FEED -->
+    <main id="feed">
+
+        <section class="intro-card">
+
+            <p>NO SWIPING.</p>
+
+            <h2>
+                MOVE THE PHONE.
+            </h2>
+
+            <p>
+                Your body is the interface.
+            </p>
+
+        </section>
+
+
+        <article class="post">
+
+            <img src="assets/img01.jpg">
+
+            <div class="post-info">
+                <span>@daily_feed</span>
+                <p>Something you might like.</p>
+            </div>
+
+        </article>
+
+
+        <article class="post">
+
+            <img src="assets/img02.jpg">
+
+            <div class="post-info">
+                <span>@recommended</span>
+                <p>Keep looking.</p>
+            </div>
+
+        </article>
+
+
+        <article class="post">
+
+            <img src="assets/img03.jpg">
+
+            <div class="post-info">
+                <span>@for_you</span>
+                <p>Another thing for you.</p>
+            </div>
+
+        </article>
+
+
+        <div class="message-card">
+            <p>KEEP GOING.</p>
+        </div>
+
+
+        <article class="post">
+
+            <img src="assets/img04.jpg">
+
+            <div class="post-info">
+                <span>@suggested</span>
+                <p>You might like this too.</p>
+            </div>
+
+        </article>
+
+
+        <article class="post">
+
+            <img src="assets/img05.jpg">
+
+            <div class="post-info">
+                <span>@discover</span>
+                <p>There is always something else.</p>
+            </div>
+
+        </article>
+
+
+        <div class="message-card big-message">
+            <p>MORE EFFORT.</p>
+        </div>
+
+
+        <article class="post">
+
+            <img src="assets/img06.jpg">
+
+            <div class="post-info">
+                <span>@again</span>
+                <p>Just one more.</p>
+            </div>
+
+        </article>
+
+
+        <!-- Repeat images intentionally -->
+
+        <article class="post">
+
+            <img src="assets/img02.jpg">
+
+            <div class="post-info">
+                <span>@recommended_again</span>
+                <p>Still here?</p>
+            </div>
+
+        </article>
+
+
+        <div class="message-card">
+            <p>STILL SCROLLING?</p>
+        </div>
+
+
+        <article class="post">
+
+            <img src="assets/img04.jpg">
+
+            <div class="post-info">
+                <span>@more_content</span>
+                <p>We can keep doing this.</p>
+            </div>
+
+        </article>
+
+
+        <article class="post">
+
+            <img src="assets/img01.jpg">
+
+            <div class="post-info">
+                <span>@endless</span>
+                <p>More content.</p>
+            </div>
+
+        </article>
+
+
+        <div class="message-card final-question">
+            <p>IS THIS WORTH IT?</p>
+        </div>
+
+
+        <article class="post">
+
+            <img src="assets/img05.jpg">
+
+            <div class="post-info">
+                <span>@one_more</span>
+                <p>One more.</p>
+            </div>
+
+        </article>
+
+
+        <article class="post">
+
+            <img src="assets/img03.jpg">
+
+            <div class="post-info">
+                <span>@one_more_again</span>
+                <p>And one more.</p>
+            </div>
+
+        </article>
+
+
+        <section id="ending">
+
+            <p class="ending-small">
+                YOU HAVE SCROLLED ENOUGH.
+            </p>
+
+            <h2>ENOUGH.</h2>
+
+            <p>
+                The feed refuses to continue.
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <!-- SENSOR STATUS -->
+    <div id="sensorUI">
+
+        <div id="direction">
+            HOLD STILL
+        </div>
+
+        <div class="meter">
+
+            <div id="meterFill"></div>
+
+        </div>
+
+        <div id="effortText">
+            EFFORT 0%
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
